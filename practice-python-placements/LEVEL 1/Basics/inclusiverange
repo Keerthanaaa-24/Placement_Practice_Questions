@@ -1,0 +1,8 @@
+n = int(input())
+
+if n == 17 or n == 33:
+    print("boundary")
+elif n > 17 and n < 33:
+    print("YES")
+else:
+    print("NO")

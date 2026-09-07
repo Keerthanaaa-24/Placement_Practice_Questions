@@ -1,0 +1,12 @@
+L1 = int(input())
+L2 = int(input())
+L3 = int(input())
+
+if (L1 < L2 and L1 < L3):
+    print("L1 has minimum seating capacity")
+
+if (L2 < L1):
+    print("L2 has minimum seating capacity")
+
+if (L3 < L2):
+    print("L3 has minimum seating capacity")

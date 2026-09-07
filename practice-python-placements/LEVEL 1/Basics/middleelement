@@ -1,0 +1,8 @@
+n = int(input())
+
+middle = (n // 10) % 10
+
+if middle % 5 == 0:
+    print("yes")
+else:
+    print("no")

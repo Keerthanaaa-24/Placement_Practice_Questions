@@ -1,0 +1,9 @@
+T = int(input())
+
+for i in range(T):
+    a, b = input().split()
+
+    if a.lower() == b.lower():
+        print("Strings are equal")
+    else:
+        print("Strings are not equal")

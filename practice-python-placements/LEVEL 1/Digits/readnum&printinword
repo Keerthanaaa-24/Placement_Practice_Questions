@@ -1,0 +1,4 @@
+n = input().lstrip('0')
+words =["Zero","One","Two","Three","Four","Five","Six","Seven","Eight","Nine"]
+for x in n :
+    print(words[int(x)], end=" ")

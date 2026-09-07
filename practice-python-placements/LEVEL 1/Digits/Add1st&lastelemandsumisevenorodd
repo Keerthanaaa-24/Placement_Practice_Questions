@@ -1,0 +1,11 @@
+n = int(input())
+arr = list(map(int, input().split()))
+sum = 0
+
+sum = arr[0] + arr[-1]
+print(sum)
+
+if sum % 2 == 0:
+    print("EVEN")
+else:
+    print("ODD")

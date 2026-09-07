@@ -1,0 +1,10 @@
+s = input()
+
+count = 1
+
+for i in range(len(s)):
+    if i == len(s) - 1 or s[i] != s[i + 1]:
+        print(s[i] + str(count), end="")
+        count = 1
+    else:
+        count += 1

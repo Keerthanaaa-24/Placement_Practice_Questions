@@ -1,0 +1,12 @@
+s = input()
+flag = True
+
+for c in s:
+    if c != '0' and c != '1':
+        flag = False
+        break
+
+if flag:
+    print("Binary")
+else:
+    print("Not Binary")

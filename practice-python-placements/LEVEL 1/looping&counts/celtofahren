@@ -1,0 +1,3 @@
+f = float(input())
+temp = ((f * 9) / 5) + 32
+print("Temperature in Fahrenheit is: %.2f" % temp)

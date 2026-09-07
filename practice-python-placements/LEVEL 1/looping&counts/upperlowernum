@@ -1,0 +1,12 @@
+ch = input()
+
+a = ord(ch)
+
+if 65 <= a <= 90:
+    print("Upper case letter")
+elif 97 <= a <= 122:
+    print("Lower case letter")
+elif 48 <= a <= 57:
+    print("Number")
+else:
+    print("Special character")

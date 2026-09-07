@@ -1,0 +1,9 @@
+n = int(input())
+if n <= 5:
+    print("Fine is 50 paise")
+elif 6 < n < 10:
+    print("Fine is 1 rupee")
+elif n > 10 and n < 30:
+    print("Fine is 5 rupees")
+elif n > 30:
+    print("Membership Cancelled")

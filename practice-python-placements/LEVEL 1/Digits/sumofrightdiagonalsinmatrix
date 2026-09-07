@@ -1,0 +1,11 @@
+n = int(input())
+
+sum = 0
+
+for i in range(n):
+    for j in range(n):
+        x = int(input())
+        if i == j:
+            sum += x
+
+print("Addition of the left Diagonal elements is:", sum)

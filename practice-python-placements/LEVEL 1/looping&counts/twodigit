@@ -1,0 +1,6 @@
+n = int(input())
+
+if 10 <= abs(n) <= 99:
+    print("Yes")
+else:
+    print("No")

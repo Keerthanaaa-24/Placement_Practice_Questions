@@ -1,0 +1,32 @@
+a = int(input())
+b = int(input())
+
+if(a == b):
+    print("iNum1 == iNum2 is true")
+else:
+    print("iNum1 == iNum2 is false")
+
+if(a != b):
+    print("iNum1 != iNum2 is true")
+else:
+    print("iNum1 != iNum2 is false")
+
+if(a >= b):
+    print("iNum1 >= iNum2 is true")
+else:
+    print("iNum1 >= iNum2 is false")
+
+if(a <= b):
+    print("iNum1 <= iNum2 is true")
+else:
+    print("iNum1 <= iNum2 is false")
+
+if(a > b):
+    print("iNum1 > iNum2 is true")
+else:
+    print("iNum1 > iNum2 is false")
+
+if(a < b):
+    print("iNum1 < iNum2 is true")
+else:
+    print("iNum1 < iNum2 is false")

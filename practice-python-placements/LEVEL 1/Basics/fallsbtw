@@ -1,0 +1,6 @@
+n = int(input())
+num = int(input())
+if -n <= num <= n:
+    print(num, "falls between", -n, "to", n)
+else:
+    print(num, "does not fall between", -n, "to", n)

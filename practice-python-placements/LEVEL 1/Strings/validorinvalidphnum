@@ -1,0 +1,6 @@
+n = input()
+
+if len(n) == 10 and n.isdigit():
+    print("Valid Mobile number")
+else:
+    print("Invalid mobile number")

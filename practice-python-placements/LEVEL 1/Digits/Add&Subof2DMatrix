@@ -1,0 +1,30 @@
+r1, c1 = map(int, input().split())
+
+if r1 < 0 or c1 < 0:
+    print("Row and column size should not be negative")
+else:
+    r2, c2 = map(int, input().split())
+
+    if r1 != r2 or c1 != c2:
+        print("Row and column size should be same for 2 matrices")
+    else:
+        a = []
+        b = []
+
+        for i in range(r1):
+            a.append(list(map(int, input().split())))
+
+        for i in range(r2):
+            b.append(list(map(int, input().split())))
+
+        print("Addition:")
+        for i in range(r1):
+            for j in range(c1):
+                print(a[i][j] + b[i][j], end=" ")
+            print()
+
+        print("Subtraction:")
+        for i in range(r1):
+            for j in range(c1):
+                print(a[i][j] - b[i][j], end=" ")
+            print()

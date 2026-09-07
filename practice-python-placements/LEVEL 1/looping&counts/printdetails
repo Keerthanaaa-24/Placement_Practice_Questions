@@ -1,0 +1,8 @@
+name = input()
+age = int(input())
+pqty = int(input())
+price = float(input())
+print("Name:", name)
+print("Age:", age)
+print("Product Quantity:", pqty)
+print("Price: %.2f" % price)

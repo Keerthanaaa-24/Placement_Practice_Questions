@@ -1,0 +1,8 @@
+n = int(input())
+if 100 <= n <= 999:
+    middle = (n // 10) % 10
+
+    if middle % 3 == 0:
+        print("Trendy Number")
+    else:
+        print("Not a Trendy Number")
