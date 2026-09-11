@@ -3,7 +3,6 @@ b = input()
 
 def check(a, b):
     return a.lower() == b.lower()
-
 if check(a, b):
     print("Yes")
 else:
